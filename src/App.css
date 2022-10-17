@@ -1,0 +1,23 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+hr {
+  height: 2px;
+  border-width: 0;
+  color: hsl(215, 32%, 27%);
+  background-color: hsl(215, 32%, 27%);
+  border-radius: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(178, 100%, 50%) !important;
+  cursor: pointer;
+}

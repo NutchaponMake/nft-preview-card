@@ -1,0 +1,27 @@
+.price-date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth-price {
+    color: hsl(178, 100%, 50%);
+}
+
+.eth-price:before {
+    content: url(../../assets/icon-ethereum.svg);
+    vertical-align: middle;
+    margin: 0.4rem;
+}
+
+
+.date-left:before {
+    content: url(../../assets/icon-clock.svg);
+    vertical-align: middle;
+    margin: 0.4rem;
+}
+
+.date-left:after {
+    content: "days left";
+    vertical-align: baseline;
+    margin: 0.2rem;
+}
